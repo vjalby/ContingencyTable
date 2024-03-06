@@ -1,0 +1,35 @@
+---
+name:  contingencytable
+title: Contingency Table
+menuGroup: VJ Tools
+version: '1.0.0'
+jas: '1.2'
+
+options:
+    - name: data
+      type: Data
+
+    - name: rowVar
+      title: Row Variable
+      type: Variable
+      required: true
+      suggested:
+        - nominal
+        - ordinal
+      permitted:
+        - factor
+
+    - name: colVar
+      title: Column Variable
+      type: Variable
+      required: true
+      suggested:
+        - nominal
+        - ordinal
+      permitted:
+        - factor
+
+    - name: generate
+      title: Generate
+      type: Action
+...

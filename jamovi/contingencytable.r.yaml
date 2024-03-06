@@ -1,0 +1,11 @@
+---
+name:  contingencytable
+title: Contingency Table
+jrs:   '1.1'
+
+items:
+    - name:  text
+      title: ''
+      type:  Preformatted
+
+...
