@@ -7,4 +7,4 @@ jmvtools::addAnalysis(name='contingencytable', title='Contingency Table')
 
 jmvtools::install()
 
-
+# branche test
